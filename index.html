@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/assets/css/output.css">
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="min-h-screen grid place-content-center bg-VeryLightGrayishBlue font-JakartaSans tracking-wide">
+    <section class="bg-white max-w-3xl p-8 rounded-xl h-[54rem] flex flex-col gap-2">
+      <div class="flex justify-between mb-6 justify-self-start">
+        <span class="font-bold text-2xl flex items-center gap-2">
+          Notifications 
+          <span class="text-base bg-Blue text-white w-8 text-center rounded-lg">
+            3
+          </span>
+        </span>
+        <button class="read-all text-DarkGrayishGlue hover:text-Blue">Mark all as read</button>
+      </div>
+        <div class="notif-box w-full bg-VeryLightGrayishBlue p-4 rounded-lg flex items-center gap-4">
+          <img src="assets/images/avatar-mark-webber.webp" alt="" class="w-12">
+          <span class="flex flex-col">
+            <span class="font-bold">
+              <span class="username">
+                Mark Webber
+              </span>
+               <span class="font-normal text-DarkGrayishGlue">reacted to your recent post</span> <span class="text-DarkGrayishGlue cursor-pointer hover:text-Blue">My first tournament today! </span><span class="bg-Red w-2 h-2 rounded-full inline-flex items-center">&nbsp</span>
+            </span>
+            <span class="text-DarkGrayishGlue">
+              1m ago
+            </span>
+          </span>
+        
+        </div>  
+        
+        <div class="notif-box w-full bg-VeryLightGrayishBlue p-4 rounded-lg flex items-center gap-4">
+          <img src="assets/images/avatar-angela-gray.webp" alt="" class="w-12">
+          <span class="flex flex-col ">
+            <span class="font-bold"><span class="username">Angela Gray</span> <span class="font-normal text-DarkGrayishGlue">followed you </span><span class="bg-Red w-2 h-2 rounded-full inline-flex items-center">&nbsp</span></span>
+            <span class="text-DarkGrayishGlue">
+              5m ago
+            </span>
+          </span>
+          
+        </div>
+        
+        <div class="notif-box w-full bg-VeryLightGrayishBlue p-4 rounded-lg flex items-center gap-4">
+          <img src="assets/images/avatar-jacob-thompson.webp" alt="" class="w-12">
+          <span class="flex flex-col">
+            <span class="font-bold">
+              <span class="username">Jacob Thompson</span>
+               <span class="font-normal text-DarkGrayishGlue">has joined your group </span><span class="font-bold text-Blue cursor-pointer">Chess Club </span><span class="bg-Red w-2 h-2 rounded-full inline-flex items-center">&nbsp</span>
+            </span>
+             <span class="text-DarkGrayishGlue">1 day ago</span>
+          </span>
+        </div>
+
+        <div class="notif-box w-full p-4 flex flex-col gap-4">
+          
+          <div class="flex gap-4">
+            <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="" class="w-12">
+            <span class="flex flex-col">
+              <span class="font-bold">
+                <span class="username">Rizky Hasanuddin</span>
+                 <span class="font-normal text-DarkGrayishGlue">sent you a private message</span></span>
+              <span>5 days ago</span>
+            </span>
+          </div>
+          <span class="border-DarkGrayishGlue border p-4 ml-16 rounded-md text-DarkGrayishGlue hover:bg-LightGrayishBlue2">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+            I'm already having lots of fun and improving my game.
+          </span>
+          
+        </div>
+        
+        <div class="notif-box w-full p-4 flex justify-between">
+          <div class="flex items-center gap-4">
+            <img src="assets/images/avatar-kimberly-smith.webp" alt="" class="w-12">
+            <span class="font-bold flex flex-col">
+              <span>
+                <span class="username">Kimberly Smith</span>
+                 <span class="font-normal text-DarkGrayishGlue">commented on your picture</span>
+              </span>
+              <span class="text-DarkGrayishGlue font-normal">
+                1 week ago
+              </span>
+            </span>
+          </div>
+          <img src="assets/images/image-chess.webp" alt="" class="w-12 cursor-pointer">
+        </div>
+        
+        <div class="notif-box w-full p-4 flex items-center gap-4">
+          <img src="assets/images/avatar-nathan-peterson.webp" alt="" class="w-12">
+          <span class="flex flex-col">
+            <span class="font-bold">
+              <span class="username">Nathan Peterson</span>
+               <span class="font-normal text-DarkGrayishGlue">reacted to your recent post </span><span class="text-DarkGrayishGlue hover:text-Blue cursor-pointer">5 end-game strategies to increase your win rate</span>
+            </span>
+            <span class="text-DarkGrayishGlue font-normal">
+              2 weeks ago
+            </span>
+          </span>
+        </div>
+        
+        <div class="notif-box w-full p-4 flex items-center gap-4">
+          <img src="assets/images/avatar-anna-kim.webp" alt="" class="w-12">
+          <span class="flex flex-col">
+            
+            <span class="font-bold"><span class="username">Anna Kim</span> <span class="font-normal text-DarkGrayishGlue">left the group </span><span class="text-Blue cursor-pointer"> Chess Club</span> </span>
+            <span class="text-DarkGrayishGlue font-normal">2 weeks ago</span>
+          </span>
+          
+        </div>
+      
+      
+    </section>
+  </main>
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
