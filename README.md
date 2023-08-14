@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-Site Link: https://tip-calculator-app-main-kohis-solution.vercel.app/
+Site Link: https://notifications-page-main-kohis-solution.vercel.app/
 
 ### Built with
 
